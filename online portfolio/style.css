@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+
+  body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+
+  .nav-links li {
+    margin: 0 1rem;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .hero {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    text-align: center;
+    padding: 5rem 1rem;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .cta-button {
+    display: inline-block;
+    background: #fff;
+    color: #333;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    text-decoration: none;
+  }
+
+  section {
+    padding: 3rem 1rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .about, .projects, .skills, .contact {
+    background: #fff;
+    margin: 1.5rem 0;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .projects .project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .project-card {
+    background: #f4f4f4;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .skills li {
+    background: #e7e7e7;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+
+  form {
+    display: grid;
+    gap: 1rem;
+  }
+
+  form input, form textarea, form button {
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  form button {
+    background: #6e8efb;
+    color: white;
+    cursor: pointer;
+  }
+
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
